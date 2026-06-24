@@ -6,7 +6,7 @@ export const AdCard = ({ ad, onClick }: { ad: any, onClick: () => void }) => (
     className="overflow-hidden cursor-pointer hover:shadow-xl transition-all border-none bg-gomory-cream group"
     onClick={onClick}
   >
-    <div className="relative aspect-[3/4] overflow-hidden">
+    <div className="relative aspect-[3/4] overflow-hidden -mt-4">
       <img 
         src={ad.image} 
         alt={ad.name} 

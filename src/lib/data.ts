@@ -6,7 +6,7 @@ export const MOCK_ADS = [
     rating: 5,
     location: "Bogotá, Chapinero Alto",
     price: "$250.000 / hr",
-    image: "https://images.pexels.com/photos/3756774/pexels-photo-3756774.jpeg?auto=compress&cs=tinysrgb&w=600",
+    image: "../../public/15.jpg",
     description: "Servicio premium enfocado en la relajación absoluta. Compañía exclusiva en un ambiente diseñado para el confort y la discreción total.",
   },
   {
@@ -16,7 +16,7 @@ export const MOCK_ADS = [
     rating: 5,
     location: "Medellín, El Poblado",
     price: "$350.000 / hr",
-    image: "https://images.pexels.com/photos/3310695/pexels-photo-3310695.jpeg?auto=compress&cs=tinysrgb&w=600",
+    image: "../../public/16.jpg",
     description: "Elegancia y distinción en cada encuentro. Experiencia de alto nivel para caballeros que buscan una compañía inteligente y sofisticada.",
   },
   {
@@ -26,7 +26,7 @@ export const MOCK_ADS = [
     rating: 4,
     location: "Cali, Ciudad Jardín",
     price: "$200.000 / hr",
-    image: "https://images.pexels.com/photos/3785424/pexels-photo-3785424.jpeg?auto=compress&cs=tinysrgb&w=600",
+    image: "../../public/17.jpg",
     description: "Carisma y dulzura. Me especializo en masajes tántricos y momentos de desconexión total. Disponible para encuentros exclusivos.",
   },
   {
@@ -36,7 +36,7 @@ export const MOCK_ADS = [
     rating: 5,
     location: "Bogotá, Chicó Norte",
     price: "$450.000 / hr",
-    image: "https://images.pexels.com/photos/2770600/pexels-photo-2770600.jpeg?auto=compress&cs=tinysrgb&w=600",
+    image: "../../public/18.jpg",
     description: "Compañía de élite para eventos, cenas o encuentros privados. Una mujer políglota que entiende el valor de la exclusividad.",
   },
   {
@@ -46,7 +46,7 @@ export const MOCK_ADS = [
     rating: 5,
     location: "Medellín, Laureles",
     price: "$300.000 / hr",
-    image: "https://images.pexels.com/photos/1926769/pexels-photo-1926769.jpeg?auto=compress&cs=tinysrgb&w=600",
+    image: "../../public/19.jpg",
     description: "Amante de la buena conversación. Ofrezco un espacio seguro y lujoso donde el tiempo se detiene. Solo previa cita.",
   },
   {
@@ -56,7 +56,7 @@ export const MOCK_ADS = [
     rating: 4,
     location: "Barranquilla, Alto Prado",
     price: "$280.000 / hr",
-    image: "https://images.pexels.com/photos/3682240/pexels-photo-3682240.jpeg?auto=compress&cs=tinysrgb&w=600",
+    image: "../../public/21.jpg",
     description: "Belleza caribeña con un toque de clase europea. Disfruta de una velada inolvidable con la mejor atención de la ciudad.",
   },
   {
@@ -66,7 +66,7 @@ export const MOCK_ADS = [
     rating: 5,
     location: "Bogotá, Santa Ana",
     price: "$400.000 / hr",
-    image: "https://images.pexels.com/photos/3394666/pexels-photo-3394666.jpeg?auto=compress&cs=tinysrgb&w=600",
+    image: "../../public/22.jpg",
     description: "Estudiante de artes con un lado audaz. Me encanta explorar nuevas sensaciones en ambientes de total lujo y respeto.",
   },
   {
@@ -76,7 +76,7 @@ export const MOCK_ADS = [
     rating: 5,
     location: "Medellín, Envigado",
     price: "$500.000 / hr",
-    image: "https://images.pexels.com/photos/3775168/pexels-photo-3775168.jpeg?auto=compress&cs=tinysrgb&w=600",
+    image: "../../public/images.jpg",
     description: "Experiencia GFE (Girlfriend Experience) de primer nivel. Sofisticación y madurez en cada detalle.",
   }
 ];

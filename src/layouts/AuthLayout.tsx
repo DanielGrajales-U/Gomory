@@ -2,12 +2,12 @@ import React from "react";
 
 export const AuthLayout = ({ children }: { children: React.ReactNode }) => {
   return (
-    <div className="flex h-screen bg-gomory-black">
+    <div className="flex h-screen bg-gomory-black p-10">
       {/* Lado Izquierdo: Branding/Imagen */}
-      <div className="hidden lg:flex w-1/2 relative flex-col items-center justify-center overflow-hidden">
+      <div className="hidden lg:flex w-1/2 relative flex-col items-center justify-center overflow-hidden rounded-2xl">
         <img 
-          src="https://images.unsplash.com/photo-1551392505-f4056bb330f1?q=80&w=1000" 
-          className="absolute inset-0 w-full h-full object-cover opacity-50 grayscale hover:grayscale-0 transition-all duration-1000"
+          src="../../public/22.jpg" 
+          className="absolute inset-0 w-full h-full object-cover opacity-10 grayscale hover:grayscale-0 transition-all duration-1000"
         />
         <div className="relative z-10 text-center">
           <h1 className="text-7xl font-serif text-gomory-gold">Gomory</h1>

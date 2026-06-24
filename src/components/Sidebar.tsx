@@ -26,7 +26,6 @@ export const Sidebar = ({ onLogout, onNavigate, currentView }: any) => (
       </Button>
     </nav>
 
-    {/* Sección de Filtros solo visible en Dashboard */}
     <div className="flex-1 space-y-6">
       <div className="px-2 flex items-center gap-2 text-xs font-bold text-gray-500 uppercase tracking-widest">
         <Filter size={14} /> Filtros
@@ -46,7 +45,7 @@ export const Sidebar = ({ onLogout, onNavigate, currentView }: any) => (
 
 const FilterSelect = ({ placeholder, options }: any) => (
   <Select>
-    <SelectTrigger className="bg-white/5 border-none h-9 text-xs text-gray-300">
+    <SelectTrigger className="bg-white/5 border-none h-9 text-xs text-gray-300 w-full">
       <SelectValue placeholder={placeholder} />
     </SelectTrigger>
     <SelectContent className="bg-gomory-black text-white border-white/10">
