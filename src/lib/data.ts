@@ -6,7 +6,7 @@ export const MOCK_ADS = [
     rating: 5,
     location: "Bogotá, Chapinero Alto",
     price: "$250.000 / hr",
-    image: "../../public/15.jpg",
+    image: "/15.jpg",
     description: "Servicio premium enfocado en la relajación absoluta. Compañía exclusiva en un ambiente diseñado para el confort y la discreción total.",
   },
   {
@@ -16,7 +16,7 @@ export const MOCK_ADS = [
     rating: 5,
     location: "Medellín, El Poblado",
     price: "$350.000 / hr",
-    image: "../../public/16.jpg",
+    image: "/16.jpg",
     description: "Elegancia y distinción en cada encuentro. Experiencia de alto nivel para caballeros que buscan una compañía inteligente y sofisticada.",
   },
   {
@@ -26,7 +26,7 @@ export const MOCK_ADS = [
     rating: 4,
     location: "Cali, Ciudad Jardín",
     price: "$200.000 / hr",
-    image: "../../public/17.jpg",
+    image: "/17.jpg",
     description: "Carisma y dulzura. Me especializo en masajes tántricos y momentos de desconexión total. Disponible para encuentros exclusivos.",
   },
   {
@@ -36,7 +36,7 @@ export const MOCK_ADS = [
     rating: 5,
     location: "Bogotá, Chicó Norte",
     price: "$450.000 / hr",
-    image: "../../public/18.jpg",
+    image: "/18.jpg",
     description: "Compañía de élite para eventos, cenas o encuentros privados. Una mujer políglota que entiende el valor de la exclusividad.",
   },
   {
@@ -46,7 +46,7 @@ export const MOCK_ADS = [
     rating: 5,
     location: "Medellín, Laureles",
     price: "$300.000 / hr",
-    image: "../../public/19.jpg",
+    image: "/19.jpg",
     description: "Amante de la buena conversación. Ofrezco un espacio seguro y lujoso donde el tiempo se detiene. Solo previa cita.",
   },
   {
@@ -56,7 +56,7 @@ export const MOCK_ADS = [
     rating: 4,
     location: "Barranquilla, Alto Prado",
     price: "$280.000 / hr",
-    image: "../../public/21.jpg",
+    image: "/21.jpg",
     description: "Belleza caribeña con un toque de clase europea. Disfruta de una velada inolvidable con la mejor atención de la ciudad.",
   },
   {
@@ -66,7 +66,7 @@ export const MOCK_ADS = [
     rating: 5,
     location: "Bogotá, Santa Ana",
     price: "$400.000 / hr",
-    image: "../../public/22.jpg",
+    image: "/22.jpg",
     description: "Estudiante de artes con un lado audaz. Me encanta explorar nuevas sensaciones en ambientes de total lujo y respeto.",
   },
   {
@@ -76,7 +76,7 @@ export const MOCK_ADS = [
     rating: 5,
     location: "Medellín, Envigado",
     price: "$500.000 / hr",
-    image: "../../public/images.jpg",
+    image: "/images.jpg",
     description: "Experiencia GFE (Girlfriend Experience) de primer nivel. Sofisticación y madurez en cada detalle.",
   }
 ];
