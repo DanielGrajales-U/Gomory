@@ -6,7 +6,7 @@ export const AuthLayout = ({ children }: { children: React.ReactNode }) => {
       {/* Lado Izquierdo: Branding/Imagen */}
       <div className="hidden lg:flex w-1/2 relative flex-col items-center justify-center overflow-hidden rounded-2xl">
         <img 
-          src="../../public/22.jpg" 
+          src="/22.jpg" 
           className="absolute inset-0 w-full h-full object-cover opacity-10 grayscale hover:grayscale-0 transition-all duration-1000"
         />
         <div className="relative z-10 text-center">

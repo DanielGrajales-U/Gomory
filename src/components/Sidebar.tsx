@@ -33,8 +33,8 @@ export const Sidebar = ({ onLogout, onNavigate, currentView }: any) => (
       <div className="space-y-3 px-1">
         <FilterSelect placeholder="Ciudad" options={["Bogotá", "Medellín", "Cali"]} />
         <FilterSelect placeholder="Categoría" options={["Escort", "Masajes", "Boutique"]} />
-        <FilterSelect placeholder="Precio" options={["$100k - $200k", "$200k - $500k", "+$500k"]} />
-      </div>
+      <FilterSelect placeholder="Preferencia Sexual" options={["Heterosexual", "Transexual", "Homosexual"]} />
+        </div>
     </div>
 
     <Button onClick={onLogout} variant="ghost" className="justify-start gap-3 text-gray-500 hover:text-red-400 mt-auto px-2">

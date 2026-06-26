@@ -20,7 +20,6 @@ export const AdModal = ({ ad, open, onOpenChange }: any) => {
               <div className="flex justify-between items-start">
                 <div>
                   <DialogTitle className="text-4xl font-serif text-gomory-black leading-none">{ad.name}</DialogTitle>
-                  <p className="text-gomory-gold font-bold text-2xl mt-2">{ad.price}</p>
                 </div>
               </div>
 
@@ -42,7 +41,7 @@ export const AdModal = ({ ad, open, onOpenChange }: any) => {
 
             <div className="flex gap-3 mt-8">
               <Button className="flex-1 bg-gomory-black text-gomory-gold hover:bg-black gap-2 h-12 rounded-full">
-                <Phone size={18} /> Llamar
+                <Phone size={18} /> Telegram
               </Button>
               <Button className="flex-1 bg-[#25D366] text-white hover:bg-[#1eb956] gap-2 h-12 rounded-full border-none">
                 <MessageSquare size={18} /> WhatsApp
